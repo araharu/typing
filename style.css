@@ -1,0 +1,42 @@
+/*タイピングゲーム*/
+body {
+    font-size: 6em;
+    text-align: center;
+}
+/*  */
+.count {
+    margin: 0;
+    font-weight: bold;
+    color: #888;
+}
+.wrap {
+    padding: 80px 40px;
+    color: #cdcdcd;
+    background-color: #666;
+    font-weight: bold;
+    margin-top: 20px;
+}
+ /* 正しくタイプされた場合のテキスト */
+ .typed {
+    color: lightgreen;
+  }
+  
+  /* ミスタイプの場合の背景 */
+  .mistyped {
+    color:r#fff;
+    font-weight: bold;
+    background-color: red;
+  }
+
+  /* スタートボタン */
+  #start {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    width: 10%;
+    min-width: 200px;
+    color: yellowgreen;
+    background: #cbe8fa;
+    border: 7px outset #99CCFF;
+  }
